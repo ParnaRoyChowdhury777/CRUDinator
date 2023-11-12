@@ -107,7 +107,7 @@ function deleteData(index){
         peopleList = JSON.parse(localStorage.getItem("peopleList"));
     }
 
-    peopleList.slice(index, 1);
+    peopleList.splice(index, 1);
     localStorage.setItem("peopleList", JSON.stringify(peopleList));
     showData();
 }
