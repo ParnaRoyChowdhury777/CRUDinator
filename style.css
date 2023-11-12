@@ -1,12 +1,23 @@
 *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
     color: white;
 }
 
 body{
     height: 100vh;
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-hr{
-    color: white;
+footer{
+    margin-top: 8rem;
 }
+
+#Update{
+    display: none;
+}
+
